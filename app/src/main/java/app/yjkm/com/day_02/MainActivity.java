@@ -1,5 +1,6 @@
 package app.yjkm.com.day_02;
 
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             list.add("---"+i+"---");
         }
         ListAppDialog.getInstance(list).showDialog(getSupportFragmentManager());
+        AlertDialog
     }
 
 
